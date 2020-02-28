@@ -215,7 +215,6 @@ export const StyledOptionPopup = styled.div`
 
 export const OptionPopup = styled.div`
   position: relative;
-  min-width: 450px;
   padding: 20px 20px 40px;
   border-radius: 5px;
   background-color: #fff;
@@ -223,6 +222,10 @@ export const OptionPopup = styled.div`
   font-weight: 500;
   color: #222;
   z-index: 2;
+
+  ${media.desktop`
+    min-width: 450px;
+  `}
 `;
 
 export const PersonTypeList = styled.ul`
