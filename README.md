@@ -1,7 +1,5 @@
 # FastScanner
 
-<br />
-
 ## 팀명
 
 FastScanner
