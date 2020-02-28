@@ -5,7 +5,7 @@ export const Footer = styled.footer`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  min-height: 200px;
+  min-height: 250px;
   background: #172126;
   color: #fff;
 `;
