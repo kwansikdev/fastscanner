@@ -26,7 +26,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/dahee.jpg" alt="dahee" />
+            <img src="/images/dahee.png" alt="dahee" />
           </a>
         </S.Member>
       </S.MemberList>

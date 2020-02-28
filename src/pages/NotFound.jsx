@@ -34,12 +34,14 @@ const StyledNotFoundInfo = styled.div`
   em {
     font-weight: 700;
     font-size: 2.2rem;
+    text-align: center;
   }
 
   p {
     margin: 15px 0 0;
     font-size: 1.8rem;
     word-break: keep-all;
+    text-align: center;
   }
 
   a {
