@@ -215,7 +215,8 @@ export const StyledOptionPopup = styled.div`
 
 export const OptionPopup = styled.div`
   position: relative;
-  padding: 15px 15px 40px;
+  min-width: 450px;
+  padding: 20px 20px 40px;
   border-radius: 5px;
   background-color: #fff;
   font-size: 1.6rem;
@@ -249,7 +250,7 @@ export const SelectCabinClass = styled.select`
 export const RequestRequiredNotice = styled.div`
   width: 100%;
   padding: 15px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 5px;
   background-color: #eee;
   word-break: keep-all;
@@ -292,7 +293,7 @@ export const AgeRangText = styled.span`
 
 export const Notice = styled.p`
   margin: 20px 0 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #999;
   word-break: keep-all;
 `;

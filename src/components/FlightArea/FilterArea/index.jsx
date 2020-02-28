@@ -263,7 +263,7 @@ const FilterArea = React.memo(
                       getAriaValueText={durationValueText}
                       onChange={handleChangeDuration}
                       onChangeCommitted={handleChangeDurationDatas}
-                      step={60}
+                      step={10}
                       min={minDuration || 0}
                       max={maxDuration || 1000}
                     />
