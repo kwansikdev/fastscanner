@@ -58,6 +58,15 @@ const FlightArea = React.memo(
       }
     }, [mainLiveSearch, session]);
 
+    useEffect(() => {
+      const $wrap = document.querySelector('#root');
+      if (filterModalVisible) {
+        $wrap.style.position = 'fixed';
+      } else {
+        $wrap.style.position = 'relative';
+      }
+    }, [filterModalVisible]);
+
     return (
       <FlightLayout>
         <FilterAreaContainer

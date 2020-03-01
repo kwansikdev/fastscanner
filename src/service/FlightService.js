@@ -16,7 +16,7 @@ export default class FlightService {
     );
   };
   static getLiveData = async ({ session, headers, params }) => {
-    const a = new Promise(async (resolve, reject) => {
+    const data = new Promise(async (resolve, reject) => {
       setTimeout(async () => {
         const { data } = await axios.get(
           `https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/${session}`,
@@ -26,9 +26,9 @@ export default class FlightService {
           },
         );
         resolve(data);
-      }, 1000);
+      }, 500);
     });
 
-    return a;
+    return data;
   };
 }

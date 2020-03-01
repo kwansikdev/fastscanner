@@ -5,7 +5,7 @@ export const Footer = styled.footer`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  min-height: 200px;
+  min-height: 250px;
   background: #172126;
   color: #fff;
 `;
@@ -27,12 +27,11 @@ export const Member = styled.li`
     height: 55px;
     background: #fff;
     border-radius: 100%;
-    }
+  }
 
-    img {
-      width: 100%;
-      height: 100%;
-    }
+  img {
+    width: 100%;
+    height: 100%;
   }
 
   & + & {

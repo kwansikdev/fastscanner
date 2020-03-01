@@ -26,7 +26,8 @@ export const FilterAreaLayout = styled.section`
   flex-basis: 23vw;
   min-height: calc(100vh - 206px);
   padding: 20px 30px;
-  background: #f5f5f5;
+  border-right: 1px solid #eee;
+  background: #fff;
 
   ${media.tablet`
     transform: ${({ filterModalVisible }) =>
